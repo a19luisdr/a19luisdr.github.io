@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ejemplo main | Guía de Diseño de Interfaces 😁</title>
+    <meta name="generator" content="VuePress 1.9.8">
+    
+    <meta name="description" content="Description">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.73d0500b.css" as="style"><link rel="preload" href="/assets/js/app.cfeacf6a.js" as="script"><link rel="preload" href="/assets/js/2.980f3844.js" as="script"><link rel="preload" href="/assets/js/15.5b331849.js" as="script"><link rel="prefetch" href="/assets/js/10.98ba156d.js"><link rel="prefetch" href="/assets/js/11.d11c3024.js"><link rel="prefetch" href="/assets/js/12.d8254864.js"><link rel="prefetch" href="/assets/js/13.fa1dc621.js"><link rel="prefetch" href="/assets/js/14.9ad14b2b.js"><link rel="prefetch" href="/assets/js/16.a68e090e.js"><link rel="prefetch" href="/assets/js/17.69745a85.js"><link rel="prefetch" href="/assets/js/18.b77388d6.js"><link rel="prefetch" href="/assets/js/3.a1e4df39.js"><link rel="prefetch" href="/assets/js/4.7364160c.js"><link rel="prefetch" href="/assets/js/5.3da2d6a2.js"><link rel="prefetch" href="/assets/js/6.6339c75f.js"><link rel="prefetch" href="/assets/js/7.2fc11fca.js"><link rel="prefetch" href="/assets/js/8.6b46e375.js"><link rel="prefetch" href="/assets/js/9.d9745c26.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.73d0500b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Guía de Diseño de Interfaces 😁</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/tema1/" class="nav-link">
+  Iniciación
+</a></div><div class="nav-item"><a href="/tema2/" class="nav-link router-link-active">
+  Modelo Vista Controlador
+</a></div><div class="nav-item"><a href="/tema3/" class="nav-link">
+  Edición visual de componentes
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/tema1/" class="nav-link">
+  Iniciación
+</a></div><div class="nav-item"><a href="/tema2/" class="nav-link router-link-active">
+  Modelo Vista Controlador
+</a></div><div class="nav-item"><a href="/tema3/" class="nav-link">
+  Edición visual de componentes
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Tema 2</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/tema2/" aria-current="page" class="sidebar-link">Modelo Vista Controlador</a></li><li><a href="/tema2/main.html" aria-current="page" class="active sidebar-link">Ejemplo main</a></li><li><a href="/tema2/modelo.html" class="sidebar-link">Ejemplo modelo</a></li><li><a href="/tema2/vista.html" class="sidebar-link">Ejemplo vista</a></li><li><a href="/tema2/controlador.html" class="sidebar-link">Ejemplo controlador</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="ejemplo-main"><a href="#ejemplo-main" class="header-anchor">#</a> Ejemplo main</h1> <p>FramePersonalizado.java</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>mycompany<span class="token punctuation">.</span>framepersonalizado</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token import"><span class="token namespace">com<span class="token punctuation">.</span>mycompany<span class="token punctuation">.</span>framepersonalizado<span class="token punctuation">.</span>gui<span class="token punctuation">.</span></span><span class="token class-name">MainFrame</span></span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ *
+ * @author a19luisdr
+ */</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">FramePersonalizado</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">new</span> <span class="token class-name">MainFrame</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/tema2/" class="prev router-link-active">
+        Modelo Vista Controlador
+      </a></span> <span class="next"><a href="/tema2/modelo.html">
+        Ejemplo modelo
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.cfeacf6a.js" defer></script><script src="/assets/js/2.980f3844.js" defer></script><script src="/assets/js/15.5b331849.js" defer></script>
+  </body>
+</html>
